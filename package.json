@@ -1,0 +1,22 @@
+{
+  "name": "analise-sentimento",
+  "version": "1.0.0",
+  "description": "Artigo da Pós-graduação - Análise de Sentimentos baseada em Aspectos e Atribuições de Polaridade em Posts de Redes Sociais para Pesquisa de Satisfação",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbuenonet/analise-sentimento.git"
+  },
+  "author": "Renato Bueno da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbuenonet/analise-sentimento/issues"
+  },
+  "homepage": "https://github.com/rbuenonet/analise-sentimento#readme",
+  "dependencies": {
+    "twitter": "^1.7.0"
+  }
+}
