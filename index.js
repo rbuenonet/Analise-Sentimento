@@ -7,7 +7,7 @@ var client = new Twitter({
   access_token_secret: 'guDbtwgBp4eOhBoYHF6anNSwXBoq3URogAHQuAE4ApLS9'
 });
  
-client.get('search/tweets', {q: '#pokemongo', result_type: 'mixed', count: 10, lang: 'en'}, function(error, tweets, response) {
+client.get('search/tweets', {q: '#jbs', result_type: 'mixed', count: 10, lang: 'en'}, function(error, tweets, response) {
    tweets.statuses.forEach(function(element) {
        console.log(element.text)
    }, this);
